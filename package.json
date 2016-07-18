@@ -1,0 +1,19 @@
+{
+  "name": "image-search-abstraction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sthodup1/Image-Search-Abstraction-Layer.git"
+  },
+  "author": "Sunny Thodupunuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sthodup1/Image-Search-Abstraction-Layer/issues"
+  },
+  "homepage": "https://github.com/sthodup1/Image-Search-Abstraction-Layer#readme"
+}
