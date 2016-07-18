@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sthodup1/Image-Search-Abstraction-Layer/issues"
   },
-  "homepage": "https://github.com/sthodup1/Image-Search-Abstraction-Layer#readme"
+  "homepage": "https://github.com/sthodup1/Image-Search-Abstraction-Layer#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "googleapis": "^11.0.0",
+    "pug": "^2.0.0-beta4"
+  }
 }
