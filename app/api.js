@@ -42,7 +42,8 @@ module.exports = function(app, db) {
            if (err) {
                //console.log('An error occured', err);
 
-               return res.status(503).send("Service unavailable. May be due to too many requests or too high of an offset value.");
+                res.send(JSON.stringify(err));
+               //return res.status(503).send("Service unavailable. May be due to too many requests or too high of an offset value.");
                
            }
             // Got the response from custom search
