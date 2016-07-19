@@ -38,7 +38,7 @@ module.exports = function(app, db) {
        var search = req.params.search;
        var when = new Date().toISOString();
 
-       customsearch.cse.list({ cx: CX, q: search, auth: API_KEY, searchType: 'image', num : 10, start : 100}, function (err, resp) {
+       customsearch.cse.list({ cx: CX, q: search, auth: API_KEY, searchType: 'image', num : 10, start : start}, function (err, resp) {
            if (err) {
                //console.log('An error occured', err);
 
