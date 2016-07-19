@@ -1,0 +1,26 @@
+html
+    head
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
+        title Image Search Abstraction Layer
+    
+    body
+        div(class="container")
+            h1(class="header") API Basejump: Image Search Abstraction Layer
+        
+            p By: Sunny Thodupunuri | 
+                a(href="https://github.com/sthodup1/image-search-abstraction-layer", target="_blank") Github Repo
+            
+            blockquote User stories:
+                ul 1)  I can get the image URLs, alt text and page urls for a set of images relating to a given search string
+                ul 2)  I can paginate through the responses by adding a ?offset=2 parameter to the URL
+                ul 3)  I can get a list of the most recently submitted search strings
+                
+            h3 Example search usage:
+            code 
+                a(style="color:inherit", href="/api/lolcats%20funny?offset=2", target="_blank") https://api-url-shortener.herokuapp.com/api/lolcats%20funny?offset=2
+
+            h3 Example history usage:
+            code
+                a(style="color:inherit", href="/latest", target="_blank") https://api-url-shortener.herokuapp.com/latest
+
+                
